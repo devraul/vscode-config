@@ -1,0 +1,55 @@
+{
+	"Hot module Reload (webpack)": {
+		"prefix": "webpack-hrm",
+		"body": [
+			"${1:/*This code in dev-server.js file*/}",
+			"const WebPackDevServer = require('webpack-dev-server')",
+			"const webpack = require('webpack')",
+			"const config = require('${2:./webpack.config.js}')",
+			"",
+			"const compiler = webpack(config)",
+			"const server = new WebPackDevServer(compiler, {",
+			"   hot: true,",
+			"   filename: config.output.filename,",
+			"   publicPath: config.output.publicPath,",
+			"   stats: {",
+			"      colors: true",
+			"    }",
+			"})",
+			"",
+			"server.listen(8080, 'localhost', () => {})",
+			""
+		],
+		"description": "Boilerplate for use HOT MODULE REPLACEMENT (HMR) in webpack-dev-server"
+	},
+	"comment snippet": {
+		"prefix": "c*",
+		"body": [
+			"/*",
+			"$1",
+			"*/"
+		],
+		"description": "coment"
+	},
+	"Console Log": {
+		"prefix": "clog",
+		"body": [
+			"console.log('$1')"
+		],
+		"description": "Snippet to create a console statement"
+	},
+	"Console error": {
+		"prefix": "cerr",
+		"body": [
+			"console.error('$1')"
+		],
+		"description": "Snippet to create a console Error statement"
+	},
+	"debbuger point": {
+		"prefix": "db",
+		"body": [
+			"debugger"
+		],
+		"description": "Snippet to create a console statement"
+	}
+}

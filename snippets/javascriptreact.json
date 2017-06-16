@@ -1,0 +1,29 @@
+{
+	"Grid Row": {
+		"prefix": "sui-gr",
+		"body": [
+			"<Grid.Row>",
+			"$1",
+			"</Grid.Row>"
+		],
+		"description": "Grid Row Component"
+	},
+	"Grid Column": {
+		"prefix": "sui-gc",
+		"body": [
+			"<Grid.Column width={$1}>",
+			"$2",
+			"</Grid.Column>"
+		],
+		"description": "Grid Column Component"
+	},
+	"Grid Column": {
+		"prefix": "sui-gc",
+		"body": [
+			"<Grid.Column width={$1}>",
+			"$2",
+			"</Grid.Column>"
+		],
+		"description": "Grid Column Component"
+	}
+}

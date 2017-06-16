@@ -1,0 +1,27 @@
+{
+	"markdown JSCode": {
+		"prefix": "jscode",
+		"body": [
+			"```javascript",
+			"${1:your code here}",
+			"```"
+		],
+		"description": "code block for javascript"
+	},
+	"codeblock": {
+		"prefix": "code",
+		"body": [
+			"```${1:language}",
+			"$2",
+			"```"
+		],
+		"description": "code block"
+	},
+	"comment code snippet": {
+		"prefix": "cmt",
+		"body": [
+			"/* $1 */"
+		],
+		"description": "big comment"
+	}
+}

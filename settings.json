@@ -1,0 +1,48 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "*.css": "css"
+    },
+    "editor.trimAutoWhitespace": true,
+    "workbench.editor.showIcons": true,
+    "typescript.check.tscVersion": false,
+    "beautify.language": {
+        "js": {
+            "type": ["javascript", "json"],
+            "filename": [".jshintrc", ".jsbeautify"]
+        },
+        "css": ["css", "scss"],
+        "html": ["htm", "html"]
+    },
+    "editor.wordWrap": true,
+    "vsicons.projectDetection.autoReload": true,
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.dragAndDrop": true,
+    "editor.minimap.enabled": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "cSpell.enabledLanguageIds": [
+        "c",
+        "cpp",
+        "csharp",
+        "go",
+        "jade",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "latex",
+        "markdown",
+        "php",
+        "plaintext",
+        "python",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yml"
+    ],
+    "window.zoomLevel": 0
+}
