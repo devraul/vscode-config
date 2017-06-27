@@ -17,13 +17,13 @@
     },
     "editor.wordWrap": true,
     "vsicons.projectDetection.autoReload": true,
-    "workbench.colorTheme": "Solarized Light",
+    "workbench.colorTheme": "Nord",
     "workbench.iconTheme": "vscode-icons",
     "editor.dragAndDrop": true,
     "editor.minimap.enabled": true,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 14,
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontSize": 16,
     "editor.fontLigatures": true,
     "cSpell.enabledLanguageIds": [
         "c",
@@ -44,5 +44,6 @@
         "typescriptreact",
         "yml"
     ],
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0.9,
+    "editor.renderIndentGuides": false
 }
