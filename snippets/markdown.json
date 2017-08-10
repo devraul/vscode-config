@@ -23,5 +23,19 @@
 			"/* $1 */"
 		],
 		"description": "big comment"
+	},
+	"Check box": {
+		"prefix": "ck",
+		"body": [
+			"- [ ] $1"
+		],
+		"description": "Create a check box"
+	},
+	"Link": {
+		"prefix": "link",
+		"body": [
+			"[$1]($2)"
+		],
+		"description": "Create a check box"
 	}
 }

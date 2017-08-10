@@ -1,8 +1,9 @@
 // Place your settings in this file to overwrite the default settings
 {
     "files.associations": {
-        "*.ejs": "html",
-        "*.css": "css"
+        "*.{ejs}": "html",
+        "*.{css,pcss}": "css",
+        "*.vue": "vue"
     },
     "editor.trimAutoWhitespace": true,
     "workbench.editor.showIcons": true,
@@ -12,38 +13,32 @@
             "type": ["javascript", "json"],
             "filename": [".jshintrc", ".jsbeautify"]
         },
-        "css": ["css", "scss"],
-        "html": ["htm", "html"]
+        "css": ["css", "scss", "postcss", "pcss"],
+        "html": ["htm"]
     },
-    "editor.wordWrap": true,
     "vsicons.projectDetection.autoReload": true,
-    "workbench.colorTheme": "Nord",
     "workbench.iconTheme": "vscode-icons",
     "editor.dragAndDrop": true,
     "editor.minimap.enabled": true,
     "editor.fontLigatures": true,
     "editor.fontFamily": "'Fira Code'",
     "editor.fontSize": 16,
-    "editor.fontLigatures": true,
-    "cSpell.enabledLanguageIds": [
-        "c",
-        "cpp",
-        "csharp",
-        "go",
-        "jade",
-        "javascript",
-        "javascriptreact",
-        "json",
-        "latex",
-        "markdown",
-        "php",
-        "plaintext",
-        "python",
-        "text",
-        "typescript",
-        "typescriptreact",
-        "yml"
-    ],
-    "window.zoomLevel": 0.9,
-    "editor.renderIndentGuides": false
+    "window.zoomLevel": 1,
+    "editor.renderIndentGuides": false,
+    "emmet.useNewEmmet": false,
+    "emmet.showAbbreviationSuggestions": true,
+    "emmet.showExpandedAbbreviation": "always", // required to work with "emmet.includeLanguages"
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "vue-html": "html"
+    },
+    "emmet.syntaxProfiles": {
+        "vue": "html",
+        "vue-html": "html"
+    },
+    "prettier.eslintIntegration": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.semi": false,
+    "spell.StopAsking": true
 }

@@ -51,5 +51,32 @@
 			"debugger"
 		],
 		"description": "Snippet to create a console statement"
+	},
+	"gulp task": {
+		"prefix": "gtask",
+		"body": [
+			"gulp.task('$1',()=>{",
+			"   return gulp.src()",
+			"        .pipe()",
+			"        .pipe(gulp.dest())",
+			"})"
+		],
+		"description": "Snippet to create a console statement"
+	},
+	"Import": {
+		"prefix": "imports",
+		"body": [
+			"import $2 from '$1'"
+		],
+		"description": "Snippet to create a import statement"
+	},
+	"Promise": {
+		"prefix": "promise",
+		"body": [
+			"new Promise((resolve,reject)=>{",
+			"    $1",
+			"})"
+		],
+		"description": "Snippet to create a import statement"
 	}
 }
